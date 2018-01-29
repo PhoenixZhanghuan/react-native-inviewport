@@ -1,0 +1,97 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "react-native-inviewport",
+        "scope": null,
+        "escapedName": "react-native-inviewport",
+        "name": "react-native-inviewport",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/zhanghuan/ReactNativeProjects/rcshop-onreact"
+    ]
+  ],
+  "_cnpm_publish_time": 1455557577725,
+  "_from": "react-native-inviewport@latest",
+  "_hasShrinkwrap": false,
+  "_id": "react-native-inviewport@1.1.0",
+  "_inCache": true,
+  "_location": "/react-native-inviewport",
+  "_nodeVersion": "4.2.2",
+  "_npmOperationalInternal": {
+    "host": "packages-9-west.internal.npmjs.com",
+    "tmp": "tmp/react-native-inviewport-1.1.0.tgz_1455557573599_0.29262791364453733"
+  },
+  "_npmUser": {
+    "name": "yamill",
+    "email": "yamill@gmail.com"
+  },
+  "_npmVersion": "2.14.7",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "react-native-inviewport",
+    "scope": null,
+    "escapedName": "react-native-inviewport",
+    "name": "react-native-inviewport",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npm.taobao.org/react-native-inviewport/download/react-native-inviewport-1.1.0.tgz",
+  "_shasum": "36776b09f00354dddbb4b07099f49149440da567",
+  "_shrinkwrap": null,
+  "_spec": "react-native-inviewport",
+  "_where": "/Users/zhanghuan/ReactNativeProjects/rcshop-onreact",
+  "author": {
+    "name": "Yamill Vallecillo",
+    "email": "yamill@gmail.com",
+    "url": "http://github.com/yamill"
+  },
+  "bugs": {
+    "url": "https://github.com/yamill/react-native-inviewport/issues"
+  },
+  "dependencies": {},
+  "description": "Detect if component is in device viewport",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "36776b09f00354dddbb4b07099f49149440da567",
+    "size": 1582,
+    "noattachment": false,
+    "tarball": "http://registry.npm.taobao.org/react-native-inviewport/download/react-native-inviewport-1.1.0.tgz"
+  },
+  "gitHead": "5d6648a29163b5a7320b8c0c743553491d8bd512",
+  "homepage": "https://github.com/yamill/react-native-inviewport#readme",
+  "keywords": [
+    "react-component",
+    "react-native",
+    "ios",
+    "android"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "yamill",
+      "email": "yamill@gmail.com"
+    }
+  ],
+  "name": "react-native-inviewport",
+  "optionalDependencies": {},
+  "publish_time": 1455557577725,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamill/react-native-inviewport.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.1.0"
+}
