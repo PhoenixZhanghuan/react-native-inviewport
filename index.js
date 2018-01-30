@@ -21,13 +21,14 @@ module.exports = React.createClass({
   propTypes: {
     onChange: React.PropTypes.func.isRequired,
     active: React.PropTypes.bool,
-    delay: React.PropTypes.number
+    delay: React.PropTypes.number,
+    showVideo: React.PropTypes.bool
   },
 
   getDefaultProps: function () {
     return {
       active: true,
-      delay: 100
+      delay: 500
     };
   },
 
@@ -75,9 +76,20 @@ module.exports = React.createClass({
         rectBottom: pageY + height
       })
     });
-    var isVisible = (
-      this.state.rectTop >= 0 && this.state.rectBottom <= window.height
-    );
+
+    let isVisible;
+
+    // 如果是视频的话，就会全部显示出来才显示，如果是图片则显示一部分就开始加载。
+    if(this.props.showVideo) {
+      isVisible = (
+        this.state.rectTop >= 0 && this.state.rectBottom <= window.height
+      );
+    }else {
+      isVisible = (
+        (this.state.rectTop < 0 && this.state.rectBottom > 0) || (this.state.rectTop > 0 && this.state.rectBottom > window.height) ||
+        (this.state.rectTop >= 0 && this.state.rectBottom <= window.height)
+      );
+    }
 
     // notify the parent when the value changes
     if (this.lastValue !== isVisible) {
